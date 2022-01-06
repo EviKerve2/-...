@@ -4,10 +4,10 @@ def klikker(event):
     global klik
 
 aken=Tk()
-aken.title("Hujna")
-aken.geometry("400x600")
+aken.title("Квадратные уровнения")
+aken.geometry("600x300")
 
-nupp=Button(aken,text="Решить",font="Arial 20",fg="lightblue",bg="black",height=4,width=20,relief=GROOVE)#RAISED, SUNKEN
+nupp=Button(aken,text="Решить",font="Arial 20",fg="black",bg="green",height=2,width=10,relief=GROOVE)#RAISED, SUNKEN
 nupp.bind("<Button-1>",klikker)
 
 nupp.pack(side=RIGHT)#side=LEFT,TOP,RIGHT
